@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\johan.jensen\Google Drive\Privat\Prosjekter\DHT-Display\DHT_Disp_1\DHT_Disp_1.sch</source>
+    <date>22.05.2020 09:39:18</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DHT_Disp_1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ATmega328P-PU</value>
+      <footprint>Package_DIP:DIP-28_W7.62mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega328P-PU" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0F8EE1</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHZ</value>
+      <footprint>Crystal:Crystal_HC49-U_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0FF82C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E100123</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>20P</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E10087B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>20P</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E100BD1</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>DHT11</value>
+      <footprint>Sensor:Aosong_DHT11_5.5x12.0_P2.54mm</footprint>
+      <datasheet>http://akizukidenshi.com/download/ds/aosong/DHT11.pdf</datasheet>
+      <libsource lib="Sensor" part="DHT11" description="Temperature and humidity module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E10125E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>DA04-11EWA</value>
+      <footprint>Display_7Segment:DA04-11SURKWA</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/DA04-11EWA.pdf</datasheet>
+      <libsource lib="Display_Character" part="DA04-11EWA" description="Double 7 segment high effecient red LED common anode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1055B6</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E107AC8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10UF</value>
+      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E108247</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1UF</value>
+      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E108519</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1UF</value>
+      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E11A586</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1292F3</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1818AA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E186017</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1864D8</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1866C9</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E188589</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E188593</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E18859D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_GCT_USB3076-30-A</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1B56A7</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Jack-DC</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Jack-DC" description="DC Barrel Jack"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1B6F80</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E260BCC</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E261918</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <aliases>
+        <alias>Jack-DC</alias>
+      </aliases>
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Display_Character" part="DA04-11SURKWA">
+      <aliases>
+        <alias>DA04-11EWA</alias>
+        <alias>DA04-11SRWA</alias>
+      </aliases>
+      <description>Double 7 segment hyper red LED common anode</description>
+      <docs>http://www.kingbright.com/attachments/file/psearch/000/00/00/DA04-11SURKWA(Ver.10A).pdf</docs>
+      <footprints>
+        <fp>*DA04*11*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DA04-11SURKWA</field>
+        <field name="Footprint">Display_7Segment:DA04-11SURKWA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIG1_C" type="input"/>
+        <pin num="2" name="DIG1_E" type="input"/>
+        <pin num="3" name="DIG1_D" type="input"/>
+        <pin num="4" name="DIG1_CA" type="input"/>
+        <pin num="5" name="DIG2_CA" type="input"/>
+        <pin num="6" name="DIG2_D" type="input"/>
+        <pin num="7" name="DIG2_E" type="input"/>
+        <pin num="8" name="DIG2_C" type="input"/>
+        <pin num="9" name="DIG2_G" type="input"/>
+        <pin num="10" name="DIG2_A" type="input"/>
+        <pin num="11" name="DIG2_F" type="input"/>
+        <pin num="12" name="DIG2_B" type="input"/>
+        <pin num="13" name="DIG1_B" type="input"/>
+        <pin num="14" name="DIG1_F" type="input"/>
+        <pin num="15" name="DIG1_A" type="input"/>
+        <pin num="16" name="DIG1_G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega48PV-10PU">
+      <aliases>
+        <alias>ATmega48P-20PU</alias>
+        <alias>ATmega48A-PU</alias>
+        <alias>ATmega48PA-PU</alias>
+        <alias>ATmega88PV-10PU</alias>
+        <alias>ATmega88P-20PU</alias>
+        <alias>ATmega88A-PU</alias>
+        <alias>ATmega88PA-PU</alias>
+        <alias>ATmega168PV-10PU</alias>
+        <alias>ATmega168P-20PU</alias>
+        <alias>ATmega168A-PU</alias>
+        <alias>ATmega168PA-PU</alias>
+        <alias>ATmega328-PU</alias>
+        <alias>ATmega328P-PU</alias>
+      </aliases>
+      <description>10MHz, 4kB Flash, 512B SRAM, 256B EEPROM, DIP-28</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega48PV-10PU</field>
+        <field name="Footprint">Package_DIP:DIP-28_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RESET~/PC6" type="BiDi"/>
+        <pin num="2" name="PD0" type="BiDi"/>
+        <pin num="3" name="PD1" type="BiDi"/>
+        <pin num="4" name="PD2" type="BiDi"/>
+        <pin num="5" name="PD3" type="BiDi"/>
+        <pin num="6" name="PD4" type="BiDi"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="XTAL1/PB6" type="BiDi"/>
+        <pin num="10" name="XTAL2/PB7" type="BiDi"/>
+        <pin num="11" name="PD5" type="BiDi"/>
+        <pin num="12" name="PD6" type="BiDi"/>
+        <pin num="13" name="PD7" type="BiDi"/>
+        <pin num="14" name="PB0" type="BiDi"/>
+        <pin num="15" name="PB1" type="BiDi"/>
+        <pin num="16" name="PB2" type="BiDi"/>
+        <pin num="17" name="PB3" type="BiDi"/>
+        <pin num="18" name="PB4" type="BiDi"/>
+        <pin num="19" name="PB5" type="BiDi"/>
+        <pin num="20" name="AVCC" type="power_in"/>
+        <pin num="21" name="AREF" type="passive"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="PC0" type="BiDi"/>
+        <pin num="24" name="PC1" type="BiDi"/>
+        <pin num="25" name="PC2" type="BiDi"/>
+        <pin num="26" name="PC3" type="BiDi"/>
+        <pin num="27" name="PC4" type="BiDi"/>
+        <pin num="28" name="PC5" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor" part="DHT11">
+      <aliases>
+        <alias>CHT11</alias>
+      </aliases>
+      <description>Temperature and humidity module</description>
+      <docs>http://akizukidenshi.com/download/ds/aosong/DHT11.pdf</docs>
+      <footprints>
+        <fp>Aosong*DHT11*5.5x12.0*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DHT11</field>
+        <field name="Footprint">Sensor:Aosong_DHT11_5.5x12.0_P2.54mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="IO" type="BiDi"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Display_Character">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Display_Character.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Sensor">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Sensor.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/5">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="2" name="/F">
+      <node ref="R8" pin="2"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="3" name="/E">
+      <node ref="R7" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="4" name="/D">
+      <node ref="U3" pin="3"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="5" name="/C">
+      <node ref="R5" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="6" name="/B">
+      <node ref="U3" pin="12"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="7" name="/A">
+      <node ref="U3" pin="10"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="8" name="/8">
+      <node ref="R9" pin="1"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="9" name="/7">
+      <node ref="U1" pin="13"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="10" name="/6">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="11" name="/G">
+      <node ref="U3" pin="16"/>
+      <node ref="U3" pin="9"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="12" name="/4">
+      <node ref="U1" pin="6"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="13" name="/3">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="14" name="/2">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="15" name="/10PWM">
+      <node ref="U1" pin="16"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="16" name="/9PWM">
+      <node ref="U1" pin="15"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="17" name="/12">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="18" name="/11PWM">
+      <node ref="U4" pin="2"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="19" name="/13">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="20" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="21" name="+BATT">
+      <node ref="J2" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="22"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="23" name="+5V">
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="24" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="25" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="26" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="27" name="/A4">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="28" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="29" name="/A5">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="30" name="/A3">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="31" name="/A2">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="32" name="/A1">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="33" name="/A0">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="34" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="35" name="/AREF">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="36" name="/0">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="37" name="Net-(C4-Pad2)">
+      <node ref="U1" pin="9"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="38" name="Net-(C5-Pad2)">
+      <node ref="Y1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="39" name="/1">
+      <node ref="U1" pin="3"/>
+    </net>
+  </nets>
+</export>
