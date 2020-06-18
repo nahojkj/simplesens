@@ -1,5 +1,12 @@
 /*
 JKJ 2019-2020
+
+Theory of operation:
+	- Read environment data from DHT-sensor
+	- Display on 7-segment display
+		* Display is bit-banged.
+	- Watchdog-timer is enabled
+	- Serially output some debug data
  */
 
 #include <SimpleDHT.h>
