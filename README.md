@@ -1,6 +1,8 @@
 # simplesens
 simplesne is a simple Arduino-based environment sensing project.
 
+![simplesens model](/media/front_model_3D.PNG)
+
 MIT Licensed
 
 The project consists of: 
