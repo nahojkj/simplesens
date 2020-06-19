@@ -1,1 +1,2 @@
-These are the design files
+These are the design files for KiCAD
+
